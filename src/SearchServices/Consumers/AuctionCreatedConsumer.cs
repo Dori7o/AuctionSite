@@ -4,7 +4,7 @@ using MassTransit;
 using MongoDB.Entities;
 using SearchServices.Models;
 
-namespace SearchServices.Consumers;
+namespace SearchServices;
 
 public class AuctionCreatedConsumer : IConsumer<AuctionCreated>
 {
@@ -20,6 +20,7 @@ public class AuctionCreatedConsumer : IConsumer<AuctionCreated>
         Console.WriteLine("Consuming auction created; " + context.Message.Id );
         var item = _mapper.Map<Item>(context.Message);
 
+        if(item.Model == "Foo") throw new ArgumentException("heyy");
         await item.SaveAsync();
     }
 }

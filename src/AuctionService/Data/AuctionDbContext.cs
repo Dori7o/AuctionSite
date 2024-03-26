@@ -11,5 +11,12 @@ public class AuctionDbContext : DbContext
     }
     public DbSet<Auction> Auctions{set;get;}
 
-    
+       protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+
+        modelBuilder.AddInboxStateEntity();
+        modelBuilder.AddOutboxMessageEntity();
+        modelBuilder.AddOutboxStateEntity();
+    }
 }
