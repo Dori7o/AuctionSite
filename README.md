@@ -1,11 +1,13 @@
-<br />
+
 <div align="center">
 
   <h3 align="center">Auction application - Carsties</h3>
+  <img src="https://gusarov-group.by/wp-content/uploads/2019/04/bidcar-auction-9.jpg" />
 
 </div>
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 This project was designed to help me learn microservices architecture using C# in the backend and Next in the frontend was part of a course I did in Udemy that enchance my knowledge in this kind of architecture.
