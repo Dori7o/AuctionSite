@@ -9,7 +9,7 @@
 ## About The Project
 
 This project was designed to help me learn microservices architecture using C# in the backend and Next in the frontend was part of a course I did in Udemy that enchance my knowledge in this kind of architecture.
-<p>To check frontend services source code you can click <a href="https://github.com/Dori7o/AuctionNextJS">here</a></p>
+<p>To check frontend source code you can click <a href="https://github.com/Dori7o/AuctionNextJS">here</a></p>
 
 ### Built With
 
@@ -39,5 +39,4 @@ To run this app you need to have node and docker installed in your machine
 
 ### Installation
 
-To install the app go to my frontend repository and follow the steps there, here is the link
-<https://github.com/Dori7o/AuctionNextJS>
+To install the app go to my frontend repository you can click <a href="https://github.com/Dori7o/AuctionNextJS">here</a>
