@@ -11,6 +11,8 @@
 This project was designed to help me learn microservices architecture using C# in the backend and Next in the frontend was part of a course I did in Udemy that enchance my knowledge in this kind of architecture.
 <p>To check frontend source code you can click <a href="https://github.com/Dori7o/AuctionNextJS">here</a></p>
 
+Course link <a href="https://www.udemy.com/course/build-a-microservices-app-with-dotnet-and-nextjs-from-scratch/">here</a>
+
 ### Built With
 
 
